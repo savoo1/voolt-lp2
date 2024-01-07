@@ -1,0 +1,21 @@
+.navbar{
+    border-radius: 72px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.60);
+    backdrop-filter: blur(6.150000095367432px);
+    min-height: 72px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 9px;
+    justify-content: space-between;
+}
+
+@media(max-width: 768px){
+    .navbar .logo{
+        max-width: 87px;
+    }
+    .navbar{
+        min-height: 64px;
+    }
+}
